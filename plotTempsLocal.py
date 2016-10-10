@@ -47,7 +47,7 @@ plt.plot(dateArray, tempFurnance, '.g')
 
 plt.gcf().autofmt_xdate()
 plt.ylabel('Degrees (F)')
-plt.title('Temperature')
+plt.title('Temperatures')
 legend = plt.legend(['inside', 'outside', 'radiator'], loc=(2), ncol=3, numpoints=1, frameon='None')
 frame = legend.get_frame()
 frame.set_facecolor('0.85')
